@@ -1,0 +1,18 @@
+.why {
+  text-align: center;
+  background: var(--LightGrayishBlue);
+  padding-top: 5em;
+  .copy {
+    margin-bottom: 5em;
+  }
+  &__item {
+    // border: 1px solid red;
+    .copy {
+      margin-bottom: 2em;
+      font-size: 0.9em;
+    }
+    img {
+      margin-bottom: 1.5em;
+    }
+  }
+}
